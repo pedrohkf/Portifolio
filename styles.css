@@ -253,10 +253,6 @@ header.scrolled {
 }
 
 /* Certificates Section */
-.certificates-section {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
-}
-
 .carousel-container {
     max-width: 100%;
     margin: 0 auto;
@@ -272,7 +268,6 @@ header.scrolled {
 .carousel-track-container {
     overflow: hidden;
     border-radius: 20px;
-    flex: 1;
     margin: 0 60px;
 }
 
@@ -604,6 +599,33 @@ footer {
 
     .about-image {
         margin-bottom: 40px;
+    }
+
+    .carousel-track-container {
+        height: 70vh;
+    }
+
+    .certificate-card {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .certificate-image,
+    .certificate-info {
+        width: 100%;
+    }
+
+    .certificate-info {
+        padding: 25px;
+    }
+
+    .certificate-info h3 {
+        font-size: 24px;
+    }
+
+    .carousel-track-container {
+        display: flex;
+        flex-direction: column;
     }
 }
 
